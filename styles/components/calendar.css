@@ -1,0 +1,39 @@
+
+
+.calendarContainer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(--clr-dark); */
+  background-color: #0d0011ca;
+}
+
+.calendarTemp {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* border: 1px solid white; */
+}
+
+
+.calendarTemp li:nth-child(1),
+.calendarTemp li:nth-child(2),
+.calendarTemp li:nth-child(3),
+.calendarTemp li:nth-child(4),
+.calendarTemp li:nth-child(5),
+.calendarTemp li:nth-child(6),
+.calendarTemp li:nth-child(7) {
+  /* padding-top: 1em; */
+  height: 3em;
+  /* padding: 1em .5em .25em .5em; */
+}
+
+
+.calendarTemp li {
+  display: flex;
+  height: 5em;
+  align-items: start;
+  padding: .5em 0 0 .5em;
+  border: 1px solid white;
+  flex-direction: column;
+}
