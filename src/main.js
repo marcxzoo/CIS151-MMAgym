@@ -1,6 +1,5 @@
 import '../styles/modern-reset.css'
 import '../styles/style.css'
-
 import '../styles/components/header.css'
 import '../styles/components/hero.css'
 import '../styles/components/story.css'
@@ -15,8 +14,8 @@ import '../styles/components/calendar.css'
 import '../styles/components/about.css'
 import '../styles/components/merch.css'
 import '../styles/components/membership.css'
-
 import '../styles/utils.css'
+
 const hamburger = document.querySelector(".header__hamburger");
 const mobileMenu = document.querySelector(".mobile-menu");
 
